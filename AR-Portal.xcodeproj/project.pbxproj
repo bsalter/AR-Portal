@@ -12,6 +12,7 @@
 		0BA483501F585DA000BD5DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA4834E1F585DA000BD5DDA /* Main.storyboard */; };
 		0BA483521F585DA000BD5DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA483511F585DA000BD5DDA /* Assets.xcassets */; };
 		0BA483551F585DA000BD5DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA483531F585DA000BD5DDA /* LaunchScreen.storyboard */; };
+		0BA4835F1F58675E00BD5DDA /* Portal.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0BA4835E1F58675E00BD5DDA /* Portal.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0BA483511F585DA000BD5DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BA483541F585DA000BD5DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BA483561F585DA000BD5DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BA4835E1F58675E00BD5DDA /* Portal.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Portal.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0BA483511F585DA000BD5DDA /* Assets.xcassets */,
 				0BA483531F585DA000BD5DDA /* LaunchScreen.storyboard */,
 				0BA483561F585DA000BD5DDA /* Info.plist */,
+				0BA4835E1F58675E00BD5DDA /* Portal.scn */,
 			);
 			path = "AR-Portal";
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			files = (
 				0BA483551F585DA000BD5DDA /* LaunchScreen.storyboard in Resources */,
 				0BA483521F585DA000BD5DDA /* Assets.xcassets in Resources */,
+				0BA4835F1F58675E00BD5DDA /* Portal.scn in Resources */,
 				0BA483501F585DA000BD5DDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VSKQF4Y8J8;
 				INFOPLIST_FILE = "AR-Portal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Reveal-Inc.AR-Portal";
@@ -286,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VSKQF4Y8J8;
 				INFOPLIST_FILE = "AR-Portal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Reveal-Inc.AR-Portal";
@@ -314,6 +320,7 @@
 				0BA4835B1F585DA000BD5DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
