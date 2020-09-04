@@ -12,7 +12,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet weak var planeDetected: UILabel!
     @IBOutlet weak var sceneView: ARSCNView!
-    let configuration = ARWorldTrackingSessionConfiguration()
+    let configuration = ARWorldTrackingConfiguration()
     override func viewDidLoad() {
         super.viewDidLoad()
         self.sceneView.debugOptions = [ARSCNDebugOptions.showWorldOrigin, ARSCNDebugOptions.showFeaturePoints]
